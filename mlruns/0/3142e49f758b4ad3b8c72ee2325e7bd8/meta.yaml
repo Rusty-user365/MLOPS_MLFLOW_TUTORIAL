@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Mlops/MLOPS_MLFLOW_TUTORIAL/mlruns/0/3142e49f758b4ad3b8c72ee2325e7bd8/artifacts
+end_time: 1769708202813
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3142e49f758b4ad3b8c72ee2325e7bd8
+run_name: incongruous-toad-639
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769708185888
+status: 3
+tags: []
+user_id: abhis

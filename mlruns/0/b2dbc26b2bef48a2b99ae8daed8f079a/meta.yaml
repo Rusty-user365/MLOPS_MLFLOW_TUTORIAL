@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Mlops/MLOPS_MLFLOW_TUTORIAL/mlruns/0/b2dbc26b2bef48a2b99ae8daed8f079a/artifacts
+end_time: 1769697708651
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b2dbc26b2bef48a2b99ae8daed8f079a
+run_name: dazzling-koi-276
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769697708372
+status: 3
+tags: []
+user_id: abhis

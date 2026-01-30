@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/648440077159932538/058fcdc7faea4dd0b8016e7a1ab151f0/artifacts
+end_time: 1769709124634
+entry_point_name: ''
+experiment_id: '648440077159932538'
+lifecycle_stage: active
+run_id: 058fcdc7faea4dd0b8016e7a1ab151f0
+run_name: efficient-dove-452
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769709110519
+status: 3
+tags: []
+user_id: abhis

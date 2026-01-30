@@ -9,8 +9,6 @@ import seaborn as sns
 
 import mlflow
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
-mlflow.set_experiment("Wine_Quality_Classification")
 
 
 
@@ -71,11 +69,11 @@ with mlflow.start_run():
 
     # tags
     mlflow.set_tag("Author", "Abhishek")
-
+    
     mlflow.set_tag("Model", "RandomForestClassifier")
     mlflow.set_tag("Dataset", "Wine Dataset")
 
     # log the model
-    mlflow.sklearn.log_model(rf, name="RandomForestClassifier", serialization_format="skops")
+    mlflow.sklearn.log_model(rf,"random_forest_wine_model")
 
     print(acc)

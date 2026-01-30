@@ -8,10 +8,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import mlflow
+import dagshub
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
-mlflow.set_experiment("Wine_Quality_Classification")
 
+dagshub.init(repo_owner='Rusty-user365', repo_name='MLOPS_MLFLOW_TUTORIAL', mlflow=True)
+mlflow.set_tracking_uri("https://dagshub.com/Rusty-user365/MLOPS_MLFLOW_TUTORIAL.mlflow")
+mlflow.set_experiment("Wine_Quality_Classification1")
 
 
 #load wine dataset

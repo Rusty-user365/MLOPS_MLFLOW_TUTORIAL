@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Mlops/MLOPS_MLFLOW_TUTORIAL/mlruns/0/cd12754a7bac4c4b9ea554357fb07765/artifacts
+end_time: 1769707488207
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cd12754a7bac4c4b9ea554357fb07765
+run_name: abrasive-auk-346
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769707487877
+status: 4
+tags: []
+user_id: abhis

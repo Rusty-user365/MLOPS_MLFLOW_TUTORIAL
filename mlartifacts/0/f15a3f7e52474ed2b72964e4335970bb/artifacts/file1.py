@@ -7,12 +7,8 @@ from sklearn.metrics import accuracy_score,confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-import mlflow
 
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
-mlflow.set_experiment("Wine_Quality_Classification")
-
-
 
 #load wine dataset
 
@@ -29,9 +25,7 @@ X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.10,random_state=4
 #define the params for RF Model
 
 max_depth=5
-n_estimators=5
-
-
+n_estimators=10
 
 
 with mlflow.start_run():
@@ -51,8 +45,6 @@ with mlflow.start_run():
     mlflow.log_param("max_depth",max_depth)
     mlflow.log_param("n_estimators",n_estimators)
     mlflow.log_metric("accuracy",acc)
-    # mention your experiment below
-   
 
 
     # creating a confusuion matrix plot  ctrl+/
@@ -68,14 +60,6 @@ with mlflow.start_run():
     mlflow.log_artifact('confusion_matrix.png')
     mlflow.log_artifact(__file__)
 
-
-    # tags
-    mlflow.set_tag("Author", "Abhishek")
-
-    mlflow.set_tag("Model", "RandomForestClassifier")
-    mlflow.set_tag("Dataset", "Wine Dataset")
-
-    # log the model
-    mlflow.sklearn.log_model(rf, name="RandomForestClassifier", serialization_format="skops")
+    
 
     print(acc)

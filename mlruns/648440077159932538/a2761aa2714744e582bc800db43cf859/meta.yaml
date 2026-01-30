@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/648440077159932538/a2761aa2714744e582bc800db43cf859/artifacts
+end_time: 1769709039590
+entry_point_name: ''
+experiment_id: '648440077159932538'
+lifecycle_stage: active
+run_id: a2761aa2714744e582bc800db43cf859
+run_name: selective-flea-339
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769709025804
+status: 3
+tags: []
+user_id: abhis

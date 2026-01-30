@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Mlops/MLOPS_MLFLOW_TUTORIAL/mlruns/0/daf503e9808e4c85b7644fafcf65472d/artifacts
+end_time: 1769697232381
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: daf503e9808e4c85b7644fafcf65472d
+run_name: sassy-roo-749
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769697232101
+status: 3
+tags: []
+user_id: abhis
