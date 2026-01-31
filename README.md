@@ -1,2 +1,2 @@
 # MLOPS_MLFLOW_TUTORIAL
-Tutorial of Mlflow and basic starter
+This repo has a complete demonstration of performing experiment tracking using mlflow.
